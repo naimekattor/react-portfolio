@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 190vh;
+  margin-top: 14rem;
 }
 .portfolio>span:nth-of-type(1){
   color: var(--black);
