@@ -1,7 +1,7 @@
 .contact-form{
   display: flex;
-  height: 80vh;
   margin-top: 4rem;
+  margin-bottom: 27rem ;
 }
 .c-right{
   display: flex;
