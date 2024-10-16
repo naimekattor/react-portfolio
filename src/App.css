@@ -39,6 +39,9 @@ button:hover{
   color:var(--orange);
   border: 1px solid var(--orange);
 }
+.active{
+  color: #00c76e;
+}
 @media only screen and (max-width:992px) {
   .min-ha-M992{
     min-height: auto !important;
