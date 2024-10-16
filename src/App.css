@@ -110,7 +110,7 @@ button:hover{
   .intro {
     flex-direction: column-reverse;
     gap: 2rem !important;
-    height: 145vh !important;
+    height: 107vh !important;
   }
   .services {
     flex-direction: column;
@@ -122,7 +122,6 @@ button:hover{
   }
   .works{
     flex-direction: column;
-    height: 128vh!important;
   }
   .testimonials>span {
     font-size: 14px;
@@ -143,10 +142,22 @@ button:hover{
     transform: scale(0.8) !important;
     top: -5rem;
 }
-
+.card {
+  width: 13rem !important;
+  height: 21rem !important;
+}
 .services .cards{
   transform: scale(0.7);
   left: 5% !important;
+}
+.cards>div:nth-of-type(1), .cards>div:nth-of-type(3) {
+  left: 13rem !important;
+}
+.cards>div:nth-of-type(1){
+  top: -1rem !important;
+}
+.cards>div:nth-of-type(3){
+  top: 25rem !important;
 }
 .experience, .w-right {
   transform: scale(0.8);
@@ -159,14 +170,14 @@ height: 100% !important;
   font-size: 30px !important;
 }
 .testimonials{
-  width: 12rem !important;
-  height: 13rem !important;
-  padding: 1rem !important;
+  width: 16rem !important;
+        height: 19rem !important;
+        margin-right: 25%;
 }
 .contact-form {
   display: flex;
   flex-direction: column;
-  height: 100vh !important;
+  margin-bottom: 42rem !important;
 }
 .c-left{
   margin-bottom: 1rem;
@@ -174,10 +185,10 @@ height: 100% !important;
 .f-content{
   flex-direction: column;
   align-items: center;
+  padding-top: 1rem !important;
+        background: #00c076;
 }
-.footer{
-  height: 146vh !important;
-}
+
 .services {
   height: 72vh !important;
 
@@ -188,6 +199,10 @@ height: 100% !important;
 }
 .works{
   margin-top: 0 !important;
+}
+.footer{
+  margin-top: 20rem !important;
+  background: #00c076;
 }
 }
  @media only screen and (max-width:460px) {
@@ -250,6 +265,9 @@ height: 100% !important;
   margin-bottom: 1rem !important;
 }
 .experience {
-  margin-top: 112vh !important;
+  margin-top: 83vh !important;
+}
+.p-tabs ul {
+  flex-wrap: wrap;
 }
  }
