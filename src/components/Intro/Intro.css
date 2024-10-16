@@ -63,6 +63,18 @@
     z-index: -1;
     border-bottom-left-radius: 50%;
 }
+.top-corner-bg-dark:before{
+  content: "";
+    min-width: 75%;
+    min-height: 100%;
+background: #00c869;
+position: absolute;
+    right: -72px;
+    bottom: 0;
+    top: -228px;
+z-index: 0;
+border-bottom-left-radius: 50%;
+}
 .profile-image {
   width: 550px;
   height: 550px;

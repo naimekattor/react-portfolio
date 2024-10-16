@@ -1,16 +1,7 @@
-import React, { useContext } from "react";
 import "./Intro.css";
-import Github from "./../../img/github.png";
-import LinkedIn from "./../../img/linkedin.png";
-import Instragram from "./../../img/instagram.png";
-import Vector1 from "./../../img/Vector1.png";
-import Vector2 from "./../../img/Vector2.png";
 import boy from "./../../img/naim4.png";
-import thumbup from "./../../img/thumbup.png";
-import Crown from "./../../img/crown.png";
-import fluidSvgForIntro from "./../../img/FluidSvgForIntro.png";
-import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
+import { useContext } from "react";
 const Intro = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -35,7 +26,11 @@ const Intro = () => {
         </div>
         <button className="i-button button">Hire me</button>
       </div>
-      <div className="i-right top-corner-bg">
+      <div
+        className={` i-right ${
+          darkMode ? "top-corner-bg-dark" : "top-corner-bg"
+        }`}
+      >
         <div className="profile-image">
           <div className="profile-circle">
             <img src={boy} alt="" />
