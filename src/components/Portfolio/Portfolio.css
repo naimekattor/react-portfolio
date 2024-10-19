@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 14rem;
+  margin-top: 14rem; 
 }
 .portfolio>span:nth-of-type(1){
   color: var(--black);
@@ -28,6 +28,7 @@ width: 20rem;
   width: 19rem;
   filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
   border-radius: 19px;
+  cursor: pointer;
 }
 .p-tabs {
   display: flex;
