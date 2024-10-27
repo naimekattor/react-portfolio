@@ -34,8 +34,8 @@ const Portfolio = () => {
       <span style={{ color: darkMode ? "white" : "" }}>Recent Project</span>
       <span>Portfolio</span>
 
-      <div className="p-tabs row">
-        <ul className="col-lg-12 p-list-btn">
+      <div className="pTabs row">
+        <ul className="col-lg-12 pListBtn">
           <li
             className={catagory == "All" ? "active" : ""}
             onClick={() => {
@@ -83,9 +83,9 @@ const Portfolio = () => {
           </li>
         </ul>
 
-        <div className="p-images col-lg-12">
+        <div className="pImages col-lg-12">
           {data.map((curElem) => (
-            <div className="p-tab-content" key={curElem.id}>
+            <div className="pTabContent" key={curElem.id}>
               <img
                 src={curElem.url}
                 alt=""
