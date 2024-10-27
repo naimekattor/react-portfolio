@@ -1,0 +1,77 @@
+
+.n-wrapper{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+.n-left{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 2rem;
+}
+.n-name{
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+.n-right{
+display: flex;
+flex: 1;
+align-items: center;justify-self: center;
+font-weight: 400;
+z-index: 1;
+}
+.n-list{
+  flex: 10;
+}
+.n-list>ul{
+  display: flex;
+  gap: 2rem;
+  z-index: 1;
+}
+.n-list>ul li{
+  cursor: pointer;
+}
+.n-list>ul li:hover{
+  cursor: pointer;
+  color: var(--orange);
+}
+.n-button{
+  flex: 2;
+}
+.m-n-list {
+  background: white;
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00c76e;
+  padding: 3rem;
+  z-index: 10;
+  margin-top: -1rem;
+  min-height: 100%;
+  transition: 2s ease;
+}
+.m-n-list>ul li:hover{
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 20px;
+  background: white;
+  color: black;
+}
+.n-list>div:nth-of-type(1){
+  display: none;
+  font-size: 20px;
+}
+.n-dark ul li:hover{
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 20px;
+  background: white;
+  color: black;
+}

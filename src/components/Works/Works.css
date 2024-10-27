@@ -1,0 +1,144 @@
+<<<<<<< HEAD
+.works{
+  display: flex;
+  margin-top: 4rem;
+}
+.w-right{
+  position: relative;
+  padding: 0 3.5rem;
+}
+.w-mainCircle{
+  position: relative;
+  width: 18rem;height: 18rem;
+  border-radius: 100%;
+  border: 5px solid #3cd5a3;
+  box-shadow: var(--boxShadow);
+  background: white;
+}
+.w-mainCircle>*{
+  position: absolute;
+}
+.w-mainCircle>:nth-child(1){
+  top: -3rem;
+  left: 6rem;
+}
+.w-mainCircle>:nth-child(2){
+  top: 5rem;
+  left: -3rem;
+}
+.w-mainCircle>:nth-child(3){
+  top: 5rem;
+  left: 6rem;
+}
+.w-mainCircle>:nth-child(4){
+  top: 5rem;
+  left: 15rem;
+}
+.w-mainCircle>:nth-child(5){
+  top: 13rem;
+  left: 6rem;
+}
+.w-secCircle{
+width: 6rem;
+height: 6rem;
+position: absolute;
+border-radius: 100%;
+border: 5px solid #03bd7a;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: var(--boxShadow);
+background: white;
+}
+.w-secCircle>img{
+  transform: scale(0.6);
+}
+.w-backCircle{
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: -1;
+}
+.blueCircle{
+  background: #03bd7a;
+  left: 10rem;
+  top: 0rem;
+}
+.yellowCircle{
+  background: #f59d2cfa;
+  left: 10rem;
+  top: 8rem;
+=======
+.works{
+  display: flex;
+  margin-top: 4rem;
+}
+.w-right{
+  position: relative;
+  padding: 0 3.5rem;
+}
+.w-mainCircle{
+  position: relative;
+  width: 18rem;height: 18rem;
+  border-radius: 100%;
+  border: 5px solid #3cd5a3;
+  box-shadow: var(--boxShadow);
+  background: white;
+}
+.w-mainCircle>*{
+  position: absolute;
+}
+.w-mainCircle>:nth-child(1){
+  top: -3rem;
+  left: 6rem;
+}
+.w-mainCircle>:nth-child(2){
+  top: 5rem;
+  left: -3rem;
+}
+.w-mainCircle>:nth-child(3){
+  top: 5rem;
+  left: 6rem;
+}
+.w-mainCircle>:nth-child(4){
+  top: 5rem;
+  left: 15rem;
+}
+.w-mainCircle>:nth-child(5){
+  top: 13rem;
+  left: 6rem;
+}
+.w-secCircle{
+width: 6rem;
+height: 6rem;
+position: absolute;
+border-radius: 100%;
+border: 5px solid #03bd7a;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: var(--boxShadow);
+background: white;
+}
+.w-secCircle>img{
+  transform: scale(0.6);
+}
+.w-backCircle{
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: -1;
+}
+.blueCircle{
+  background: #03bd7a;
+  left: 10rem;
+  top: 0rem;
+}
+.yellowCircle{
+  background: #f59d2cfa;
+  left: 10rem;
+  top: 8rem;
+>>>>>>> 426f6634160c0fea22deedd4d7ddbe940b07be50
+}

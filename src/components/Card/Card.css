@@ -1,0 +1,37 @@
+.s-card{
+  width: 16rem;
+  height: 22rem !important;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.26);
+  border: 7px solid #00c869 !important;
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 0px 26px 3rem 26px; 
+}
+.card>:nth-child(3){
+  font-size: 12px;
+  color: var(--gray);
+}
+.card>span:nth-of-type(1){
+  color: #00c869;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.card>img{
+  transform: scale(0.6);
+  margin-bottom: -2rem;
+}
+.c-button{
+  background: #00cc62;
+  box-shadow: 0px 19px 60px rgba(0,0,0,0.08);
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+}
