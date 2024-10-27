@@ -32,36 +32,36 @@ width: 20rem;
   border-radius: 19px;
   cursor: pointer;
 }
-.p-tabs {
+.pTabs {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.p-tabs ul{
+.pTabs ul{
   list-style: none;
   display: flex;
   margin: 2rem 0;
 }
-.p-list-btn{
+.pListBtn{
    display: flex;
    align-items: center;
    justify-content: center;
 }
-.p-tabs ul li{
+.pTabs ul li{
   padding: 1rem;
   margin: 0 10px;
   cursor: pointer;
 }
-.p-images {
+.pImages{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.p-tab-content {
+.pTabContent {
   margin: 10px;
 }
-.p-tab-content img{
+.pTabContent img{
   width: 372px;
   height: 400px;
 }
